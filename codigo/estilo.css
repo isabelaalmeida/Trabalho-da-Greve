@@ -1,0 +1,106 @@
+.button {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Alegreya;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: #334567;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+  width:100px;
+  height:50px;
+ 
+}
+body{
+	background-image: url("/Trabalho_greve/img2.jpg");
+	background-repeat: repeat;
+	background-size: cover;
+}
+.button:hover {
+	background-color: #334545;
+	}
+
+.button:active {
+  background-color: #334545;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+img.icone {
+    width: 20%;
+   
+}
+div{
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+}
+.conteudo {
+	text-align:center;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+}
+.enviar{
+  float: left;
+  width: 40%;
+  background-color: #334867;
+  text-align:center;
+}
+table{
+  width: 100%;
+  margin-bottom : .5em;
+  table-layout: fixed;
+  text-align: center;
+}
+ul{
+	list-style-type: none;
+	margin: 0%;
+	padding: 0%;
+	width: 100%;
+	font-size: 10px;
+	font-weight: bold;
+}
+li{
+	display: inline;
+}
+li a {
+	font-family: Monotype-corsiva;
+    color: #000;
+    padding: 6px 10px;
+    text-decoration: none;
+	font-size: 17px;
+	display: inline-block;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+h1{
+	color: #453276;
+	text-align: center;
+	font-family: Monotype-corsiva;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 50px; 
+}
+
+.imagem{
+	 width:1000px;
+     height:50px;
+}
+.borda{
+	 width:1000px;
+     height:50px;
+}
+
+#formulario{
+    text-align: center;
+    padding: 8px 16px;
+	height: 500px;
+	margin: 10px;
+    width: 200px;
+}
+
